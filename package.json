@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.42"
+  }
+}

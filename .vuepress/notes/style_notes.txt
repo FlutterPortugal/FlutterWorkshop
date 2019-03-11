@@ -1,0 +1,19 @@
+
+# Default colors
+$accentColor = #3eaf7c
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+
+
+# Flutter colours
+FlutterBlue700 #02569B
+600Primary #0175C2
+400Secondary #13B9FD
+
+FlutterYellow700 #FFC108
+
+GoogleGray900 #202124
+600 #60646B
+100 #D5D7DA
+White #FFFFFF
