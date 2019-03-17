@@ -27,10 +27,10 @@ sidebar: auto
 
 ## Recommended flow
 
-1. basic-app/
-2. basic-single-child-widgets/
-3. basic-multi-child-widgets/
-4. list-builder/
-5. stateless-widget/
-6. stateful-widget/
-7. routing/
+1. [Basic App](/exercises/basic-app/)
+2. [Single Single Widgets](/exercises/basic-single-child-widgets/)
+3. [Multi Child Widgets](/exercises/basic-multi-child-widgets/)
+4. [List Builder](/exercises/list-builder/)
+5. [Routing](/exercises/routing/)
+6. [Stateless](/exercises/stateless-widget/)
+7. [Stateful](/exercises/stateful-widget/)
