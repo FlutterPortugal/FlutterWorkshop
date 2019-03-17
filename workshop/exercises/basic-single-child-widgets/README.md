@@ -1,3 +1,8 @@
+---
+prev: /exercises/basic-app/
+next: /exercises/basic-multi-child-widgets/
+---
+
 # Basic Single Child Widgets
 
 ## Setup

@@ -1,3 +1,8 @@
+---
+prev: /exercises/list-builder/
+next: /exercises/stateless-widget/
+---
+
 # Routing/Navigation
 
 ## Setup

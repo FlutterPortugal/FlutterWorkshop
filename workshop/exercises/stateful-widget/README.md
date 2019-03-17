@@ -1,3 +1,8 @@
+---
+prev: /exercises/stateless-widget/
+next: false
+---
+
 # Basic Stateful
 
 Stateful Widget: 

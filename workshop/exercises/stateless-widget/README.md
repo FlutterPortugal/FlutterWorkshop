@@ -1,3 +1,8 @@
+---
+prev: /exercises/routing/
+next: /exercises/stateful-widget/
+---
+
 # Basic Stateless Widgets
 
 Stateless Widget: 

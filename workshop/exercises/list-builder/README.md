@@ -1,3 +1,8 @@
+---
+prev: /exercises/basic-multi-child-widgets/
+next: /exercises/routing/
+---
+
 # List Builder
 
 ## Setup

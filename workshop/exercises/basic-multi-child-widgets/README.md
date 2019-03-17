@@ -1,3 +1,8 @@
+---
+prev: /exercises/basic-single-child-widgets/
+next: /exercises/list-builder/
+---
+
 # Basic Multi Child Widgets
 
 ## Setup
