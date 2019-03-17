@@ -8,9 +8,11 @@ sidebar: auto
 
 ## How to use this workshop
 
-1. Clone this repository and you will have the following structure:
+1. Be sure you have Flutter SDK installed and ready to run in your machine.
+   * Install: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
+2. Clone this [repository](https://github.com/OldMetalmind/FlutterWorkshop) and you will have the following structure:
 
-    ``` markup
+    ```
     FlutterWorkshop/
         my_app/  (Base app for workshop)
         workshop/
@@ -20,9 +22,9 @@ sidebar: auto
             setup-flutter/ 
     ```
 
-2. After setting up Flutter, your editor, and all dependencies. You read the README.md inside `setup-flutter` for instructions.
-3. Use the created `my_app/` folder Flutter app to work your exercices.
-4. Follow the "Recommended Flow"
+3. Be sure you up Flutter, your editor (we recommend [Visual Studio Code](https://code.visualstudio.com/)), and all dependencies. 
+4. Use the created `my_app/` folder Flutter app to work on your exercices.
+5. Follow the "Recommended Flow"
 
 ## Recommended Flow
 
@@ -33,3 +35,8 @@ sidebar: auto
 5. [Routing](/exercises/routing/)
 6. [Stateless](/exercises/stateless-widget/)
 7. [Stateful](/exercises/stateful-widget/)
+
+
+## Notes
+
+* This Workshop uses [VuePress](https://v1.vuepress.vuejs.org/) to create this, if you wish to run this pages locally, install [VuePress](https://v1.vuepress.vuejs.org/) and run it in the root of this project
