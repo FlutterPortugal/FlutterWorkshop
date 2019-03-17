@@ -34,7 +34,7 @@ module.exports = {
           { text: 'Stateful', link: '/exercises/statefull-widget/' },
         ]
       },
-      { text: "Flutter.io", link: "https://flutter.dev" },
+      { text: "Flutter.dev", link: "https://flutter.dev" },
     ],
     serviceWorker: {
         updatePopup: true // Boolean | Object, default to undefined.
