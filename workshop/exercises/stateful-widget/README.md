@@ -5,7 +5,9 @@ Stateful Widget:
 
 ## Setup
 
-- Copy the content of `main.txt` into the file this folder into `/my_app/lib/main.dart`
+- Copy the following content into the file this folder into `/my_app/lib/main.dart`
+
+<<< @/my_app/lib/exercises/stateful-widget/main.dart
 
 # Tasks
 

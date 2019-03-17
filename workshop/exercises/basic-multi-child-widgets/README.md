@@ -2,7 +2,9 @@
 
 ## Setup
 
-- Copy the content of `main.txt` into the file this folder into `/my_app/lib/main.dart`
+- Copy the following content into the file this folder into `/my_app/lib/main.dart`
+
+<<< @/my_app/lib/exercises/basic-multi-child-widgets/main.dart
 
 ## Tasks
 

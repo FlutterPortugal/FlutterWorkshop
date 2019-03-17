@@ -31,7 +31,7 @@ module.exports = {
           { text: 'List Builder', link: '/exercises/list-builder/' },
           { text: 'Routing', link: '/exercises/routing/' },
           { text: 'Stateless', link: '/exercises/stateless-widget/' },
-          { text: 'Stateful', link: '/exercises/statefull-widget/' },
+          { text: 'Stateful', link: '/exercises/stateful-widget/' },
         ]
       },
       { text: "Flutter.dev", link: "https://flutter.dev" },

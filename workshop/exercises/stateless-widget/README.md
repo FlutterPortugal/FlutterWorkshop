@@ -5,7 +5,9 @@ Stateless Widget:
 
 ## Setup
 
-- Replace the content of `copy.txt` into the file `/my_app/lib/main.dart`.
+- Copy the following content into the file this folder into `/my_app/lib/main.dart`
+
+<<< @/my_app/lib/exercises/stateless-widget/main.dart
 
 ## Task
 

@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
 
 Widget _myWidget() {
   final items = [
-    ListItem("Oldest child"),
-    ListItem("Favorite child"),
-    ListItem("Youngest child"),
+    ListTile(title: Text("Oldest child")),
+    ListTile(title: Text("Favorite child")),
+    ListTile(title: Text("Youngest child")),
   ];
 
   return ListView.builder(
