@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Flutter Hands On
+# Motivation
 
 > “We often think of coding as a solitary activity, but in fact it’s the world’s largest team sport. All the software we write builds on the work of others, and our job at GitHub is to make that easier for everyone.” - GitHub CEO Nat Friedman 
 
@@ -21,11 +21,10 @@ sidebar: auto
     ```
 
 2. After setting up Flutter, your editor, and all dependencies. You read the README.md inside `setup-flutter` for instructions.
-3. Use the create `my_app/` folder Flutter app to work your exercices.
-4. Follow the "recommended flow"
-5. Read the README.md in each folder for instructions
+3. Use the created `my_app/` folder Flutter app to work your exercices.
+4. Follow the "Recommended Flow"
 
-## Recommended flow
+## Recommended Flow
 
 1. [Basic App](/exercises/basic-app/)
 2. [Single Single Widgets](/exercises/basic-single-child-widgets/)
