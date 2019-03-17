@@ -1,4 +1,4 @@
-# Flutter Kata : Basic App
+# Basic App
 
 ## Setup
 
