@@ -9,13 +9,13 @@ module.exports = {
       {
         text: 'Exercises',
         items: [
-          { text: 'Basic app', link: '/exercices/basic-app/' },
-          { text: 'Single Child', link: '/exercices/basic-single-child-widgets/' },
-          { text: 'Multi Child', link: '/exercices/basic-multi-child-widgets/' },
-          { text: 'List Builder', link: '/exercices/list-builder/' },
-          { text: 'Routing', link: '/exercices/routing/' },
-          { text: 'Stateless', link: '/exercices/stateless-widget/' },
-          { text: 'Stateful', link: '/exercices/statefull-widget/' },
+          { text: 'Basic app', link: '/exercises/basic-app/' },
+          { text: 'Single Child', link: '/exercises/basic-single-child-widgets/' },
+          { text: 'Multi Child', link: '/exercises/basic-multi-child-widgets/' },
+          { text: 'List Builder', link: '/exercises/list-builder/' },
+          { text: 'Routing', link: '/exercises/routing/' },
+          { text: 'Stateless', link: '/exercises/stateless-widget/' },
+          { text: 'Stateful', link: '/exercises/statefull-widget/' },
         ]
       },
       { text: "Flutter.io", link: "https://flutter.dev" },
