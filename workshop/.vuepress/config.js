@@ -54,5 +54,3 @@ module.exports = {
     }
   ]
 };
-
-// TODO: Add Github contribute url https://v1.vuepress.vuejs.org/theme/default-theme-config.html#git-repo-and-edit-links
