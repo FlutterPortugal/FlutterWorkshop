@@ -107,3 +107,6 @@ node_modules
 .firebase/
 
 # End of https://www.gitignore.io/api/firebase
+my_app/ios/Runner.xcodeproj/project.pbxproj
+my_app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+my_app/ios/Runner.xcodeproj/project.pbxproj
