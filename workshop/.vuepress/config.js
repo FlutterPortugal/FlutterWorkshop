@@ -21,7 +21,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     sidebar: 'auto',
     nav: [
-      { text: "Get Started", link: "/guide/" },
+      { text: "Home", link: "/" },
       {
         text: 'Exercises',
         items: [
