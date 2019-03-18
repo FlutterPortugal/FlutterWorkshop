@@ -3,3 +3,10 @@ steps:
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run', 'workshop:build']
+- name: 'gcr.io/$PROJECT_ID/firebase'
+  args: ['list']
+  secretEnv: ['FIREBASE_TOKEN']
+secrets:
+- kmsKeyName: 'projects/[PROJECT_ID]/locations/global/keyRings/cloudbuilder/cryptoKeys/firebase-token'
+  secretEnv:
+    FIREBASE_TOKEN: 'CiQA++fJxo0gvNV4avQmoEnTnsSo/Rc1bvk3oaV+PW0pKiMKP40SVgAjvcI1FU8WDeD65PzWi2ULPfSCU7TInrheysxw/ee8pZQd6UcHR9qyd4QUTZy9MtWOGmBN8ymXKncAlT6JLJw4b7zFkOIDbFf02oRvnTCggxRy7+hd'
