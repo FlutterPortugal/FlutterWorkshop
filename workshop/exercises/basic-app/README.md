@@ -7,7 +7,7 @@ next: /exercises/basic-single-child-widgets/
 
 ## Setup
 
-- Make sure when running ```flutter doctor``` all is okay, follow the insctrution in /setup-flutter if needed.
+- Make sure when running ```flutter doctor``` all is okay, follow the instruction in /setup-flutter if needed.
 
 ## Tasks 
 1. Open folder ```my_app/``` with [Visual Studio Code](https://code.visualstudio.com/)
