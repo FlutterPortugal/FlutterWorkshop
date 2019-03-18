@@ -1,7 +1,5 @@
 steps:
-- name: node:10.15.1
-  entrypoint: yarn
+- name: 'gcr.io/cloud-builders/npm'
   args: ['install']
-- name: node:10.15.1
-  entrypoint: yarn
-  args: [workshop:build']
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'workshop:build']
