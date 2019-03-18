@@ -3,9 +3,9 @@ steps:
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run', 'workshop:build']
-- name: 'gcr.io/cloud-builders/docker'
+# - name: 'gcr.io/cloud-builders/docker'
 #   args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/firebase', '.' ]
-# - name: 'gcr.io/$PROJECT_ID/firebase'
+- name: 'gcr.io/$PROJECT_ID/firebase'
   args: [ 'deploy', '--project', '$PROJECT_ID']
   secretEnv: ['FIREBASE_TOKEN']
 secrets:
