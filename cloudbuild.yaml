@@ -3,8 +3,6 @@ steps:
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run', 'workshop:build']
-# - name: 'gcr.io/cloud-builders/docker'
-#   args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/firebase', '.' ]
 - name: 'gcr.io/$PROJECT_ID/firebase'
   args: [ 'deploy', '--project', '$PROJECT_ID']
   secretEnv: ['FIREBASE_TOKEN']
@@ -12,5 +10,3 @@ secrets:
 - kmsKeyName: 'projects/flutterworkshop-30848/locations/global/keyRings/cloudbuilder/cryptoKeys/firebase-token'
   secretEnv:
     FIREBASE_TOKEN: 'CiQA++fJxo0gvNV4avQmoEnTnsSo/Rc1bvk3oaV+PW0pKiMKP40SVgAjvcI1FU8WDeD65PzWi2ULPfSCU7TInrheysxw/ee8pZQd6UcHR9qyd4QUTZy9MtWOGmBN8ymXKncAlT6JLJw4b7zFkOIDbFf02oRvnTCggxRy7+hd'
-# images:
-# - 'gcr.io/$PROJECT_ID/firebase'
