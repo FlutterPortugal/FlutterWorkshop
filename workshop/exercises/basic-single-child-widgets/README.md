@@ -11,7 +11,6 @@ next: /exercises/basic-multi-child-widgets/
 
 <<< @/my_app/lib/exercises/basic-single-child-widgets/main.dart
 
-
 ## Tasks
 
 1. Run `my_app`.
@@ -32,9 +31,9 @@ next: /exercises/basic-multi-child-widgets/
    4. `EdgeInsets.only(left: 40.0)`
 9. Replace now the widget with `Container(..)`, notice how this widget has `alignment` and `padding` field. edit a bit the fields such as you did with Align and Padding widgets.
 10. Replace now with the widget `Transform.rotate(..)`, `.scale(..)` and `.translate(..)`, don't forget to keep your child widget `Text(..)`
-   1.  `Transform.scale(scale: 2.0, ..)`
-   2.  `Transform.translate(offset: Offset(10.0, 10.0), ..)`
-   3.  `Transform.rotate(angle: pi / 4, ..)`
+    1. `Transform.scale(scale: 2.0, ..)`
+    2. `Transform.translate(offset: Offset(10.0, 10.0), ..)`
+    3. `Transform.rotate(angle: pi / 4, ..)`
 
 # Lessons Learned
 
@@ -45,8 +44,6 @@ next: /exercises/basic-multi-child-widgets/
 https://docs.flutter.io/flutter/widgets/Container-class.html) powerfull widget to help position and much more a widget
 - [Transform](https://docs.flutter.io/flutter/widgets/Transform-class.html) go crazy
 
-
 ## Articles
 
-- [Flutter — Container Cheat Sheet
-](https://medium.com/jlouage/container-de5b0d3ad184)
+- [Flutter — Container Cheat Sheet](https://medium.com/jlouage/container-de5b0d3ad184)

@@ -24,11 +24,8 @@ next: /exercises/list-builder/
 9. Instead of using `GridView(..)` now use `GridView.count(..)` and add the property `crossAxisCount: 2`
 10. Some widgets are more complex and required you to build them, such as `GridView(..)`. The count() method is a builder "helper".
 
-
-
-
 ### Extra
 
-* When experimenting with `ListView(..)` instead of using Expanded with Text, try using `ListTile(..)` insted
-  * Try `ListTile(..)` with other multi-child widgets.
-  * Did you noticed it works with `Column(..)`=
+- When experimenting with `ListView(..)` instead of using Expanded with Text, try using `ListTile(..)` insted
+  - Try `ListTile(..)` with other multi-child widgets.
+  - Did you noticed it works with `Column(..)`=
