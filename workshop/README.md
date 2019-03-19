@@ -14,6 +14,9 @@ features:
   details: Collaborate in the direction of the workshop, suggest exercises or make a pull request of new.
 footer: MIT Licensed
 ---
+# Flutter Workshop
+
+This workshop is created with the help of Flutter Portugal community.
 
 ## Maintainers
 

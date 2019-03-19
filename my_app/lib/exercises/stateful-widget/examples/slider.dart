@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class MySlider extends StatefulWidget {
   _MySliderState createState() => _MySliderState();
 }

@@ -7,7 +7,7 @@ next: /exercises/list-builder/
 
 ## Setup
 
-- Copy the following content into the file this folder into `/my_app/lib/main.dart`
+- Replace the following content into your file `my_app/lib/main.dart`
 
 <<< @/my_app/lib/exercises/basic-multi-child-widgets/main.dart
 
@@ -24,11 +24,8 @@ next: /exercises/list-builder/
 9. Instead of using `GridView(..)` now use `GridView.count(..)` and add the property `crossAxisCount: 2`
 10. Some widgets are more complex and required you to build them, such as `GridView(..)`. The count() method is a builder "helper".
 
-
-
-
 ### Extra
 
-* When experimenting with `ListView(..)` instead of using Expanded with Text, try using `ListTile(..)` insted
-  * Try `ListTile(..)` with other multi-child widgets.
-  * Did you noticed it works with `Column(..)`=
+- When experimenting with `ListView(..)` instead of using Expanded with Text, try using `ListTile(..)` insted
+  - Try `ListTile(..)` with other multi-child widgets.
+  - Did you noticed it works with `Column(..)`=

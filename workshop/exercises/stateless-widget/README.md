@@ -5,12 +5,12 @@ next: /exercises/stateful-widget/
 
 # Basic Stateless Widgets
 
-Stateless Widget: 
+Stateless Widget:
 "A widget that does not require mutable state."
 
 ## Setup
 
-- Copy the following content into the file this folder into `/my_app/lib/main.dart`
+- Replace the following content into your file `my_app/lib/main.dart`
 
 <<< @/my_app/lib/exercises/stateless-widget/main.dart
 
@@ -20,23 +20,22 @@ Stateless Widget:
 2. Lets create one of our own.
 3. In `my_app/lib/main.dart` create a class called `Hello(..)` in your `main.dart`
 
-```
-class Hello extends StatelessWidget {
+    ``` dart
+      class Hello extends StatelessWidget {
 
-  final String name;
+        final String name;
 
-  Hello({this.name})
+        Hello({this.name})
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Text("Hello $name"),
-    );
-  }
-}
-```
+        @override
+        Widget build(BuildContext context) {
+          return Container(
+            child: Text("Hello $name"),
+          );
+        }
+      }
+    ```
 
 4. Use `Hello(..)` instead of the `Text(..)`
 5. Try adding more variables;
 6. What other example of a stateless widget you could create?
-

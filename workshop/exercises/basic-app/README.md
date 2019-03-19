@@ -9,19 +9,20 @@ next: /exercises/basic-single-child-widgets/
 
 - Make sure when running ```flutter doctor``` all is okay, follow the instruction in /setup-flutter if needed.
 
-## Tasks 
+## Tasks
+
 1. Open folder ```my_app/``` with [Visual Studio Code](https://code.visualstudio.com/)
-2. Replace the following content into your file `my_app/lib/`.
+2. Replace the following content into your file `my_app/lib/main.dart`.
 
-<<< @/my_app/lib/exercises/basic-app/main.dart
+    <<< @/my_app/lib/exercises/basic-app/main.dart
 
-1. Open the file ```main.dart```
-2. With a device or emulator connected.
-3. Press F5 or "Debug -> Start Debugging".
-4. Check your device/emulator screen.
-5. What do you see?
-6. Change the texts for example of "Hello World" to something else and save the file.
-7.  What happened after you saved?
+3. Open the file ```main.dart```
+4. With a device or emulator connected.
+5. Press F5 or "Debug -> Start Debugging".
+6. Check your device/emulator screen.
+7. What do you see?
+8. Change the texts for example of "Hello World" to something else and save the file.
+9. What happened after you saved?
 
 # Lessons Learned
 
