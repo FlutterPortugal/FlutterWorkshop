@@ -11,7 +11,7 @@ next: /exercises/basic-single-child-widgets/
 
 ## Tasks 
 1. Open folder ```my_app/``` with [Visual Studio Code](https://code.visualstudio.com/)
-2. Replace the following content into your file `my_app/lib/`.
+2. Replace the following content into your file `my_app/lib/main.dart`.
 
 <<< @/my_app/lib/exercises/basic-app/main.dart
 

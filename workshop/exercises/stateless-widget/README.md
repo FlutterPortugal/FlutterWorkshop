@@ -5,12 +5,12 @@ next: /exercises/stateful-widget/
 
 # Basic Stateless Widgets
 
-Stateless Widget: 
+Stateless Widget:
 "A widget that does not require mutable state."
 
 ## Setup
 
-- Copy the following content into the file this folder into `/my_app/lib/main.dart`
+- Replace the following content into your file `my_app/lib/main.dart`
 
 <<< @/my_app/lib/exercises/stateless-widget/main.dart
 
