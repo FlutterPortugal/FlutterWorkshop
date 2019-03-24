@@ -38,4 +38,4 @@ sidebar: auto
 
 ## Notes
 
-* This Workshop uses [VuePress](https://v1.vuepress.vuejs.org/) to create this, if you wish to run this pages locally, install [VuePress](https://v1.vuepress.vuejs.org/) and run it in the root of this project
+* This Workshop uses [VuePress](https://v1.vuepress.vuejs.org/) to generate these pages, if you wish, install [VuePress](https://v1.vuepress.vuejs.org/) to run these workshop pages locally.
