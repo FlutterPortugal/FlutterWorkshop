@@ -18,11 +18,27 @@ next: /exercises/stateless-widget/
 3. In the "FirstPage" remove the Button and create a simples list with 500 elements
 4. Add a "tap" funcionality for each row. When user taps on a odd indexed Row, navigates to the "Second Page"
 5. Add a Constructor to the "Second Page" to accept a String fields
-    - tip:
+    - Note:
 
         ``` dart
         final String title;
         SecondPage({this.title});
+        ```
+
+        There are two ways of building the constructor, with `optional arguments` and not. If you create the arguments with curly braces the arguments are optional and can be call in any order. If not, you don't need to explicity name the arguments but they need to be in order.
+
+
+        ``` dart
+        // optional arguments
+        const SecondPage({this.title, this.subtitle});
+        // object creation
+        SecondPage(title: "Title")
+
+        // without optional arguments
+        const SecondPage(this.title, this.subtitle);
+        // object creation
+        SecondPage("Title", "SubTitle")
+
         ```
 
 6. Add to the title of the second page the row number clicked.
