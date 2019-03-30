@@ -29,9 +29,9 @@ module.exports = {
           { text: 'Single Child Widgets', link: '/exercises/basic-single-child-widgets/' },
           { text: 'Multi Child Widgets', link: '/exercises/basic-multi-child-widgets/' },
           { text: 'List Builder', link: '/exercises/list-builder/' },
-          { text: 'Routing', link: '/exercises/routing/' },
           { text: 'Stateless', link: '/exercises/stateless-widget/' },
           { text: 'Stateful', link: '/exercises/stateful-widget/' },
+          { text: 'Routing', link: '/exercises/routing/' },
         ]
       },
       { text: "Flutter.dev", link: "https://flutter.dev" },

@@ -14,14 +14,17 @@ next: /exercises/list-builder/
 ## Tasks
 
 1. Some widgets accept multiple children: `Row`, `Column`, `GridView`, or `ListView`.
-2. Replace `Center(..)` with `Row(..)`, and the property `child` with `children: <Widget>[`
+2. Replace `Center(..)` with `Row(..)`, and the property `child` with `children: <Widget>[...]`.
+    ::: tip Note
+        Multi child Widgets, like the name, has various children widgets, so that is why it accepts an array of Widgets and has the field 'children'
+    :::
 3. What happened?
-4. Try to add as many `Text(..)` as you want.
-5. Lets experiments with `Expanded(..)` widget, use it to wrap each children.
-6. See the difference.
-7. Experiment replacing your `Row(..)` with `Column(..)`, `GridView(..)`, and `ListView(..)`
+4. Try to add as many `Text(..)` to the `children` array as you want.
+5. Lets experiments with `Expanded(..)` widget, use it to wrap each children you added in the previous task.
+6. See the difference. What changed?
+7. Experiment replacing your `Row(..)` with `Column(..)`, `GridView(..)`, and `ListView(..)`.
 8. Does all of them work?
-9. Instead of using `GridView(..)` now use `GridView.count(..)` and add the property `crossAxisCount: 2`
+9. Instead of using `GridView(..)` now use `GridView.count(..)` and add the property `crossAxisCount: 2`.
 
     ::: tip Note
     Some widgets are more complex and required you to build them, such as GridView(..). The count() method is a builder "helper".
