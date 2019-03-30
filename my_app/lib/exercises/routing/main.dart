@@ -38,12 +38,14 @@ class SecondPage extends StatelessWidget {
       ),
       body: Center(
         child: RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
+          onPressed: _goBack(context),
           child: Text('Go back!'),
         ),
       ),
     );
+  }
+
+  _goBack(context) {
+      Navigator.pop(context);
   }
 }
