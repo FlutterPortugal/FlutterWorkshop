@@ -26,6 +26,6 @@ next: /exercises/list-builder/
 
 ### Extra
 
-- When experimenting with `ListView(..)` instead of using Expanded with Text, try using `ListTile(..)` insted
+- When experimenting with `ListView(..)` instead of using Expanded with Text, try using `ListTile(..)` instead
   - Try `ListTile(..)` with other multi-child widgets.
   - Did you noticed it works with `Column(..)`=
