@@ -25,7 +25,7 @@ Stateless Widget:
 
         final String name;
 
-        Hello({this.name})
+        Hello({this.name});
 
         @override
         Widget build(BuildContext context) {
