@@ -15,8 +15,13 @@ next: /exercises/stateless-widget/
 
 1. Run the app an try it out.
 2. How many ways you can move back from the second screen back to the first?
-3. In the "FirstPage" remove the Button and create a simples list with 500 elements
-4. Add a "tap" funcionality for each row. When user taps on a odd indexed Row, navigates to the "Second Page"
+::: tip Node
+    As you might noticed the field `onPressed` expects a function, in the case of "FirstPage" we are using an anonymous function, that will call the `Navigator` for the app to navigate to the "SecondPage" while in this second page for the `onPressed` we are now using a normal function instead.
+:::
+
+3. In the "FirstPage" remove the Button and create a simple `ListView` with more than 20 children (go crazy)
+4. Add a "onTap:" funcionality for each row. When user taps on a odd indexed Row, navigates to the "Second Page"
+   - The `ListTile` used together as children of `ListView` have the field `onTap` that expects a function.
 5. Add a Constructor to the "Second Page" to accept a String fields
     - Note:
 
