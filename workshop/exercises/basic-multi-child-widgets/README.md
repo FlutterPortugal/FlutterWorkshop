@@ -16,7 +16,7 @@ next: /exercises/list-builder/
 1. Some widgets accept multiple children: `Row`, `Column`, `GridView`, or `ListView`.
 2. Replace `Center(..)` with `Row(..)`, and the property `child` with `children: <Widget>[...]`.
     ::: tip Note
-        Multi child Widgets, like the name, has various children widgets, so that is why it accepts an array of Widgets and has the field 'children'
+    Multi child Widgets, like the name, has various children widgets, so that is why it accepts an array of Widgets and has the field 'children'
     :::
 3. What happened?
 4. Try to add as many `Text(..)` to the `children` array as you want.

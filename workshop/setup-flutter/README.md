@@ -1,4 +1,4 @@
-# Flutter Kata: Setup
+# Flutter Workshop: *Setup*
 
 ## System Requirements
 
@@ -8,7 +8,7 @@ Check the following links for the system requirements for your operating system 
 - [MacOS](https://flutter.io/docs/get-started/install/macos#system-requirements)
 - [Linux](https://flutter.io/docs/get-started/install/linux#system-requirements)
 
-*Note: you will require access to a MacOS to be able to build for iOS, still.*
+*Note: you will require access to a MacOS to be able to build for iOS or using an online CI*
 
 ## You will also need
 
@@ -20,7 +20,7 @@ Have at least one of the following:
 
 ## Install Flutter
 
-Go to the oficial website <flutter.io> for installation instructions. Start by choosing your operating system.
+Go to the oficial website <flutter.dev> for installation instructions. Start by picking your operating system of choice.
 
 Install <https://flutter.io/docs/get-started/install>
 
@@ -34,10 +34,9 @@ Install <https://flutter.io/docs/get-started/editor?tab=vscode>
 
 ### Recomended VSCode Plugins
 
-I also recomend that you install the following plugins.
+We also recomend that you install the following plugins.
 
 - [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets) - Just a bunch of more common snippets shortcuts
-- [Flutter Widget Snippets](https://marketplace.visualstudio.com/items?itemName=alexisvt.flutter-snippets) - Moar snippets shortcuts
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Git helper to better version your work
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) - Makes the brackets colorful and easier to track (you'll need it)
 - [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist) - Helps add new dependencies
@@ -75,4 +74,4 @@ While we will be developing in Dart, if you are experienced developer in another
 
 ## Flutter
 
-- Flutter Documentation - <https://docs.flutter.io/>
+- Flutter Documentation - <https://docs.flutter.dev/>

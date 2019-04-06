@@ -1,26 +1,29 @@
 import 'package:flutter/material.dart';
 
+
+// Source: https://flutter.dev/docs/cookbook/navigation/navigation-basics
+
 void main() {
   runApp(MaterialApp(
-    title: 'Routing/Navigation',
-    home: FirstPage(),
+    title: 'Navigation Basics',
+    home: FirstRoute(),
   ));
 }
 
-class FirstPage extends StatelessWidget {
+class FirstRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('First Page'),
+        title: Text('First Route'),
       ),
       body: Center(
         child: RaisedButton(
-          child: Text('Open Page'),
+          child: Text('Open route'),
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => SecondPage()),
+              MaterialPageRoute(builder: (context) => SecondRoute()),
             );
           },
         ),
@@ -29,23 +32,21 @@ class FirstPage extends StatelessWidget {
   }
 }
 
-class SecondPage extends StatelessWidget {
+class SecondRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Second Page"),
+        title: Text("Second Route"),
       ),
       body: Center(
         child: RaisedButton(
-          onPressed: _goBack(context),
+          onPressed: () {
+            Navigator.pop(context);
+          },
           child: Text('Go back!'),
         ),
       ),
     );
-  }
-
-  _goBack(context) {
-      Navigator.pop(context);
   }
 }
