@@ -1,6 +1,6 @@
 ---
 prev: /exercises/list-builder/
-next: /exercises/stateless-widget/
+next: /exercises/networking/
 ---
 
 # Routing/Navigation
