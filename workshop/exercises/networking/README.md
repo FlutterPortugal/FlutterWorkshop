@@ -1,5 +1,6 @@
 ---
 prev: /exercises/networking/
+next: /exercises/basic-state-management/
 ---
 
 # Networking

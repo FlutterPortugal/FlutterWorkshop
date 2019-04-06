@@ -33,6 +33,7 @@ module.exports = {
           { text: 'Stateful', link: '/exercises/stateful-widget/' },
           { text: 'Routing', link: '/exercises/routing/' },
           { text: 'Networking', link: '/exercises/networking/' },
+          { text: 'Basic State Management', link: '/exercises/basic-state-management/' },
         ]
       },
       { text: "Flutter.dev", link: "https://flutter.dev" },
