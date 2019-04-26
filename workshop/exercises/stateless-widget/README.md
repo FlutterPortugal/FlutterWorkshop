@@ -39,3 +39,7 @@ Stateless Widget:
 4. Use `Hello(..)` instead of the `Text(..)`
 5. Try adding more variables;
 6. What other example of a stateless widget you could create?
+
+## Exercise
+
+![exercise](/images/task05.png)

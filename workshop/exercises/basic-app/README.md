@@ -24,6 +24,10 @@ next: /exercises/basic-single-child-widgets/
 8. Change the texts for example of "Hello World" to something else and save the file.
 9. What happened after you saved?
 
+## Exercise
+
+![exercise](/images/task01.png)
+
 # Lessons Learned
 
 - ```lib/main.dart``` is the starting point of the Flutter app with the function 'main()' being the root, starting point.

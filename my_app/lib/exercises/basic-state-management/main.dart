@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(FavoriteColorInherited(
+  runApp(FavoriteInheritedWidget(
     favoriteColor: FavoriteColor(color: Colors.blue),
     child: MaterialApp(
       title: 'Basic State',
@@ -13,8 +13,8 @@ void main() {
 class FirstRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    FavoriteColorInherited favorite =
-        context.ancestorWidgetOfExactType(FavoriteColorInherited);
+    FavoriteInheritedWidget favorite =
+        context.ancestorWidgetOfExactType(FavoriteInheritedWidget);
 
     return Scaffold(
       appBar: AppBar(
@@ -60,8 +60,8 @@ class FirstRoute extends StatelessWidget {
 class SecondRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final FavoriteColorInherited favorite =
-        context.ancestorWidgetOfExactType(FavoriteColorInherited);
+    final FavoriteInheritedWidget favorite =
+        context.ancestorWidgetOfExactType(FavoriteInheritedWidget);
 
     return Scaffold(
       appBar: AppBar(
@@ -80,16 +80,20 @@ class SecondRoute extends StatelessWidget {
   }
 }
 
-class FavoriteColorInherited extends InheritedWidget {
+class FavoriteInheritedWidget extends InheritedWidget {
   final FavoriteColor favoriteColor;
 
-  const FavoriteColorInherited({
+  const FavoriteInheritedWidget({
     this.favoriteColor,
     Widget child,
   }) : super(child: child);
 
   @override
-  bool updateShouldNotify(FavoriteColorInherited oldWidget) => true;
+  bool updateShouldNotify(FavoriteInheritedWidget oldWidget) => true;
+
+  static FavoriteInheritedWidget of(BuildContext context) {
+    return (context.inheritFromWidgetOfExactType(FavoriteInheritedWidget) as FavoriteInheritedWidget);
+  }
 }
 
 class FavoriteColor {
@@ -97,11 +101,6 @@ class FavoriteColor {
 
   FavoriteColor({this.color});
 
-  newFavorite(Color newColor) {
-    this.color = newColor;
-  }
-
-  getFavorite() {
-    return this.color;
-  }
+  newFavorite(Color newColor) => this.color = newColor;
+  getFavorite() => this.color;
 }

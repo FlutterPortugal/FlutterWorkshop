@@ -39,6 +39,10 @@ next: /exercises/basic-multi-child-widgets/
     2. `Transform.translate(offset: Offset(10.0, 10.0), ..)`
     3. `Transform.scale(scale: 2.0, ..)`
 
+## Exercise
+
+![exercise](/images/task02.png)
+
 # Lessons Learned
 
 - [Center](https://docs.flutter.io/flutter/widgets/Center-class.html) centers one widget inside

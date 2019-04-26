@@ -30,6 +30,10 @@ next: /exercises/list-builder/
     Some widgets are more complex and required you to build them, such as GridView(..). The count() method is a builder "helper".
     :::
 
+## Exercise
+
+![exercise](/images/task03.png)
+
 ### Extra
 
 - When experimenting with `ListView(..)` instead of using the widget `Expanded` with `Text(..)`, try using `ListTile(..)` instead

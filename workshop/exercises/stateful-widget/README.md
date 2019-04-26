@@ -18,3 +18,9 @@ Stateful Widget:
 
 1. A stateful widget will always include a State class.
 2. Focus on the code
+
+## Exercise
+
+On click change the text and the icon.
+
+![exercise](/images/task06.png)

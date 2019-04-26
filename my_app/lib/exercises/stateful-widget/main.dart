@@ -10,10 +10,27 @@ class MyButton extends StatefulWidget {
 }
 
 class _MyButtonState extends State<MyButton> {
-  
+  final String originalText = "Hello, click me once!";
+  final String clickedText = "You've clicked me!";
+
+  Text textWidget;
+
+  @override
+  void initState() {
+    textWidget = Text(originalText);
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Text("boring stateful");
+    return FlatButton(
+      child: textWidget,
+      onPressed: () {
+        setState(() {
+          textWidget = Text(clickedText);
+        });
+      },
+    );
   }
 }
 

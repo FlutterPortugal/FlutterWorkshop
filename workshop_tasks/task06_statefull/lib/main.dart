@@ -10,10 +10,32 @@ class MyButton extends StatefulWidget {
 }
 
 class _MyButtonState extends State<MyButton> {
-  
+  final String originalText = "Hello, click me!";
+  final String clickedText = "I'm your favorite";
+
+  bool isFavorite = false;
+
+  Text textWidget;
+
+  @override
+  void initState() {
+    textWidget = Text(originalText);
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Text("boring stateful");
+    return FlatButton(
+      child: Row(children: <Widget>[
+        isFavorite ? Text(clickedText) : Text(originalText),
+        isFavorite ? Icon(Icons.star) : Icon(Icons.star_border)
+      ],),
+      onPressed: () {
+        setState(() {
+          isFavorite = !isFavorite;
+        });
+      },
+    );
   }
 }
 

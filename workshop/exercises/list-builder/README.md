@@ -43,11 +43,9 @@ next: /exercises/stateless-widget/
 
 6. Make the Snackbar only show for 100 milliseconds.
 
----
+### Exercise
 
-### Extra
-
-To have an infinite list with items here is an example from the Flutter docs: 
+To have an infinite list with items here is an example from the Flutter docs:
 
 ``` dart
 ListView.builder(
@@ -59,4 +57,6 @@ ListView.builder(
 )
 ```
 
-[source https://docs.flutter.io/flutter/widgets/ListView-class.html](https://docs.flutter.io/flutter/widgets/ListView-class.html)
+![exercise](/images/task04.png)
+
+source:[https://docs.flutter.io/flutter/widgets/ListView-class.html](https://docs.flutter.io/flutter/widgets/ListView-class.html)
