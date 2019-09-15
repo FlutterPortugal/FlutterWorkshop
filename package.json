@@ -7,6 +7,6 @@
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.42"
   },
   "dependencies": {
-    "vuepress": "^1.0.0-alpha.44"
+    "vuepress": "^1.0.4"
   }
 }
