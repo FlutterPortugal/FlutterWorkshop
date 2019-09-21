@@ -19,7 +19,7 @@ Lets start with most basic exercise, the parsing of a json string. Dart has a co
 
 1. Run the app and check what happens.
 2. Inspect the code and try to determine where is the serializing of json is happening.
-3. Instead of showing the `json` string, can you nice Widget to show the text only?
+3. Instead of showing the `json` string, can you a nice Widget instead to show the text only?
 4. We are using a variable with the `json` string, what if the information comes from a file?
    1. For this last task we will need to use a diferent core library called `services` and a property called `rootBundle`. For that you just to import it as following: `import 'package:flutter/services.dart' show rootBundle;`.
    2. Second part of this tasks is to add the file to the `assets/` folder. You can use the same folder in corresponding lib/ folder of the exercise.
