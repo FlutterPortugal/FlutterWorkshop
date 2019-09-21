@@ -126,3 +126,6 @@ my_app/ios/Runner.xcodeproj/project.pbxproj
 .history
 
 # End of https://www.gitignore.io/api/visualstudiocode
+
+
+flutter_export_environment.sh
