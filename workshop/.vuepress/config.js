@@ -53,6 +53,7 @@ module.exports = {
       sidebarLinkSelector: ".sidebar-link",
       headerAnchorSelector: ".header-anchor",
       headerTopOffset: 120
-    }
+    },
+    ['@dovyp/vuepress-plugin-clipboard-copy', true]
   ]
 };
