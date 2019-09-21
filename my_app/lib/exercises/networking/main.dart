@@ -30,8 +30,8 @@ class CatFact {
 
   factory CatFact.fromJson(Map<String, dynamic> parsedJson){
     return CatFact(
-      text: parsedJson['id'],
-      id : parsedJson['name'],
+      text: parsedJson['text'],
+      id : parsedJson['_id'],
     );
   }
 }

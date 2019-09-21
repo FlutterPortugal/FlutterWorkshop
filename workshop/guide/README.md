@@ -35,6 +35,8 @@ sidebar: auto
 5. [Stateless](/exercises/stateless-widget/)
 6. [Stateful](/exercises/stateful-widget/)
 7. [Routing](/exercises/routing/)
+8. [Networking](/exercises/networking/)
+9. [Basic State Management](/exercises/basic-state-management/)
 
 ## Notes
 
