@@ -8,7 +8,7 @@ Check the following links for the system requirements for your operating system 
 - [MacOS](https://flutter.io/docs/get-started/install/macos#system-requirements)
 - [Linux](https://flutter.io/docs/get-started/install/linux#system-requirements)
 
-*Note: you will require access to a MacOS to be able to build for iOS or using an online CI*
+Note: you will require access to a MacOS to be able to build for iOS or using an online CI*
 
 ## You will also need
 
