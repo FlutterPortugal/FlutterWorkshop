@@ -12,7 +12,7 @@ Stateless Widget:
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/stateless-widget/main.dart
+<<< @/workshop/solutions/exercises/stateless-widget/main.dart
 
 ## Task
 

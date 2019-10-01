@@ -9,7 +9,7 @@ next: /exercises/basic-multi-child-widgets/
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/basic-single-child-widgets/main.dart
+<<< @/workshop/solutions/exercises/basic-single-child-widgets/main.dart
 
 ## Tasks
 
@@ -43,7 +43,7 @@ next: /exercises/basic-multi-child-widgets/
 
 ![exercise](/images/task02.png)
 
-# Lessons Learned
+## Lessons Learned
 
 - [Center](https://docs.flutter.io/flutter/widgets/Center-class.html) centers one widget inside
 - [Align](https://docs.flutter.io/flutter/widgets/Align-class.html) up, down, left, right, together!

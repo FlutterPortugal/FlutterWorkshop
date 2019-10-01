@@ -16,7 +16,7 @@ When to use one or the another?
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/basic-state-management/main.dart
+<<< @/workshop/solutions/exercises/basic-state-management/main.dart
 
 ## Tasks
 

@@ -11,7 +11,7 @@ This tasks will be simple and direct, it will give you practice in the most comm
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/networking/main.dart
+<<< @/workshop/solutions/exercises/networking/main.dart
 
 ## Tasks
 
@@ -32,13 +32,13 @@ Lets start with most basic exercise, the parsing of a json string. Dart has a co
         ```
 
     :::tip
-    Is quite boring to generate all the PODs by hand, there are various automatic ways to do so, however, for now, if you feel so, try an online Dart PODO code generate: https://app.quicktype.io/
+    Is quite boring to generate all the PODs by hand, there are various automatic ways to do so, however, for now, if you feel so, try an online Dart PODO code generate: [https://app.quicktype.io/](https://app.quicktype.io/)
     :::
 
 5. What is a Future, async, await?
 6. On a next step, what would it be like to load a same json from the network, that is quite simple using the core library [`http`](https://pub.dartlang.org/packages/http), lets try it.
    1. You will need to import the library: `import 'package:http/http.dart' as http;`
-   2. Lets use API cat facts: https://cat-fact.herokuapp.com
+   2. Lets use API cat facts: [https://cat-fact.herokuapp.com](https://cat-fact.herokuapp.com)
    3. To call a random cat fact you can use the `http` like so:
 
         ``` dart
