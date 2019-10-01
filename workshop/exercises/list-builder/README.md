@@ -9,7 +9,7 @@ next: /exercises/stateless-widget/
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/list-builder/main.dart
+<<< @/workshop/solutions/exercises/list-builder/main.dart
   
 ## Tasks
 

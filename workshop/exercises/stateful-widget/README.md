@@ -12,9 +12,9 @@ Stateful Widget:
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/stateful-widget/main.dart
+<<< @/workshop/solutions/exercises/stateful-widget/main.dart
 
-# Tasks
+## Tasks
 
 1. A stateful widget will always include a State class.
 2. Focus on the code

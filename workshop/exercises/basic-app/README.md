@@ -19,7 +19,7 @@ next: /exercises/basic-single-child-widgets/
 6. Select a folder of your preference, where create the project
 7. Replace the following content into your file `my_app/lib/main.dart`.
 
-    <<< @/my_app/lib/exercises/basic-app/main.dart
+    <<< @/workshop/solutions/exercises/basic-app/main.dart
 
 8. Open the file ```main.dart```
 9. With a device or emulator connected.

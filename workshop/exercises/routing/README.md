@@ -9,7 +9,7 @@ next: /exercises/networking/
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/routing/main.dart
+<<< @/workshop/solutions/exercises/routing/main.dart
 
 ## Tasks
 

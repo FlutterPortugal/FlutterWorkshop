@@ -9,7 +9,7 @@ next: /exercises/list-builder/
 
 - Replace the following content into your file `my_app/lib/main.dart`
 
-<<< @/my_app/lib/exercises/basic-multi-child-widgets/main.dart
+<<< @/workshop/solutions/exercises/basic-multi-child-widgets/main.dart
 
 ## Tasks
 
