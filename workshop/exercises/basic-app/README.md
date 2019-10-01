@@ -11,24 +11,29 @@ next: /exercises/basic-single-child-widgets/
 
 ## Tasks
 
-1. Open folder ```my_app/``` with [Visual Studio Code](https://code.visualstudio.com/)
-2. Replace the following content into your file `my_app/lib/main.dart`.
+1. Lets create a new Flutter Project
+2. Open [Visual Studio Code](https://code.visualstudio.com/)
+3. Go to View -> Command Palette
+4. Search and select `Flutter: New Project`
+5. Give it a name
+6. Select a folder of your preference, where create the project
+7. Replace the following content into your file `my_app/lib/main.dart`.
 
     <<< @/my_app/lib/exercises/basic-app/main.dart
 
-3. Open the file ```main.dart```
-4. With a device or emulator connected.
-5. Press F5 or "Debug -> Start Debugging".
-6. Check your device/emulator screen.
-7. What do you see?
-8. Change the texts for example of "Hello World" to something else and save the file.
-9. What happened after you saved?
+8. Open the file ```main.dart```
+9. With a device or emulator connected.
+10. Press F5 or "Debug -> Start Debugging".
+11. Check your device/emulator screen.
+12. What do you see?
+13. Change the texts for example of "Hello World" to something else and save the file.
+14. What happened after you saved?
 
 ## Exercise
 
 ![exercise](/images/task01.png)
 
-# Lessons Learned
+## Lessons Learned
 
 - ```lib/main.dart``` is the starting point of the Flutter app with the function 'main()' being the root, starting point.
 - Widget [Scaffold](https://flutter.io/docs/catalog/samples/Scaffold) is the main Widget of the screen, with a top bar "AppBar" and a "body" that here is a centered Text.
