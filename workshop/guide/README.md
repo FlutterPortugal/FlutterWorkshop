@@ -28,15 +28,15 @@ sidebar: auto
 
 ## Recommended Flow
 
-1. [Basic App](/exercises/basic-app/)
-2. [Single Single Widgets](/exercises/basic-single-child-widgets/)
-3. [Multi Child Widgets](/exercises/basic-multi-child-widgets/)
-4. [List Builder](/exercises/list-builder/)
-5. [Stateless](/exercises/stateless-widget/)
-6. [Stateful](/exercises/stateful-widget/)
-7. [Routing](/exercises/routing/)
-8. [Networking](/exercises/networking/)
-9. [Basic State Management](/exercises/basic-state-management/)
+1. [Basic App](/workshop/exercises/basic-app/)
+2. [Single Single Widgets](/workshop/exercises/basic-single-child-widgets/)
+3. [Multi Child Widgets](/workshop/exercises/basic-multi-child-widgets/)
+4. [List Builder](/workshop/exercises/list-builder/)
+5. [Stateless](/workshop/exercises/stateless-widget/)
+6. [Stateful](/workshop/exercises/stateful-widget/)
+7. [Routing](/workshop/exercises/routing/)
+8. [Networking](/workshop/exercises/networking/)
+9. [Basic State Management](/workshop/exercises/basic-state-management/)
 
 ## Notes
 
