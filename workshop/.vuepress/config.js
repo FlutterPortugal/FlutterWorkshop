@@ -3,7 +3,7 @@ module.exports = {
   description: "A hands on workshop to learn Flutter step by step",
   themeConfig: {
     // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'OldMetalmind/FlutterWorkshop',
+    repo: 'FlutterPortugal/FlutterWorkshop',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Contribute!',
@@ -31,7 +31,6 @@ module.exports = {
           { text: 'List Builder', link: '/exercises/list-builder/' },
           { text: 'Stateless', link: '/exercises/stateless-widget/' },
           { text: 'Stateful', link: '/exercises/stateful-widget/' },
-          { text: 'Routing', link: '/exercises/routing/' },
           { text: 'Networking', link: '/exercises/networking/' },
           { text: 'Basic State Management', link: '/exercises/basic-state-management/' },
         ]

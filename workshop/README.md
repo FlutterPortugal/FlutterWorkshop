@@ -21,7 +21,7 @@ This workshop is created with the help of Flutter Portugal community.
 ## Join the community
 
 - [Meetup](https://www.meetup.com/FlutterPortugal/)
-- [Twitter: @FlutterPortugal](https://www.meetup.com/FlutterPortugal/)
+- [Twitter](https://twitter.com/FlutterPortugal)
 - [Discord chat.flutter.pt](http://chat.flutter.pt)
 
 ## Maintainers
