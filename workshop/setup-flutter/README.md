@@ -40,6 +40,7 @@ We also recomend that you install the following plugins.
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Git helper to better version your work
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) - Makes the brackets colorful and easier to track (you'll need it)
 - [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist) - Helps add new dependencies
+- [flutter intl] (https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) - Makes it easier to handle internalization (i18n/l10n) on apps.
 - [dart-import](https://marketplace.visualstudio.com/items?itemName=luanpotter.dart-import) - Turns your imports to relative paths
 
 ## Check Installation
@@ -62,7 +63,7 @@ Troubleshooting:
   - Restart the ADB by running the following command ```adb kill-server```
   - Try a different USB cable
 
-## Dart 2.1.0
+## Dart 2.7.0
 
 While we will be developing in Dart, if you are experienced developer in another programming language, you will find it easy to start. We will mostly use Flutter Widgets but if you would like to know more about Dart, or if you need to learn how to do something in Dart. I recommend you check the following websites
 

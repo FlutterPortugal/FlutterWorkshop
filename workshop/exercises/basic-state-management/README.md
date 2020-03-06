@@ -21,13 +21,19 @@ When to use one or the another?
 ## Tasks
 
 1. After copying the code, run the app. Try it out.
-2. This is more of experimenting with the code mentioned. Notice how most of the code is from the routing exercise however, it has a `InheritedWidget`, what is it doing? How is it called?
-
-## Project
-
-Create a app with the following.
-
-- Create an app with 3 Screens
-  - List of cat facts;
-  - Detail of 1 cat fact, after clicking an item of the list;
-  - Screen with the favorites cat facts;
+2. As you probably might have noticed, this file holds 3 classes:
+  * `HomeScreen` — our home screen widget, nothing new so far;
+  * `FavoriteColor` — our data class, just like in any other OOP language, here it holds a particular `Color`;
+  * `FavoriteInheritedWidget` - a particular widget that allows us to notify (and rebuild) children widgets when needed. This is where the state management comes in;
+3. So, what's happening here? There seems to be a lot of new stuff going on. Let's break it down.
+  - So, we have an `InheritedWidget` which is our `FavoriteInheritedWidget`, this kind of "special" widgets allows us bubbling down the widget tree (this is, all of its children widgets) and let them be notified when they need to
+  ```
+  @override
+  bool updateShouldNotify(FavoriteInheritedWidget oldWidget) => true;
+  ```
+  - Likewise, when child widgets need to access its parent (ancestor), they can do so throught the `context` and access its properties/methods. This is being done where you see
+  ```
+  FavoriteInheritedWidget favorite = context.dependOnInheritedWidgetOfExactType<FavoriteInheritedWidget>();
+  ```
+  - Last but not least, when they get a reference to this `InheritedWidget` and, for example here, change its color, it notifies all of its dependent children so they can rebuild and be aware of the new changes.
+4. You can play a bit with the different buttons and see that the UI actually changes accordingly. There are a lot of state management packages used with Flutter, to name a few: **BLoC**, **Provider**, **MobX**, **ScopedModel** or even **Redux**. What's magic about all of them, is that behind the scenes most of the time they are just using `InheritedWidgets`. 

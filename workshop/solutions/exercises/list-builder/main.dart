@@ -5,31 +5,31 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Multi Child Widgets'),
-        ),
-        body: _myWidget(),
-      ),
-    );
+    return MaterialApp(home: HomeScreen());
   }
 }
 
-Widget _myWidget() {
-  final items = [
-    ListTile(title: Text("Oldest child")),
-    ListTile(title: Text("Favorite child")),
-    ListTile(title: Text("Youngest child")),
-  ];
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key key}) : super(key: key);
 
-  return ListView.builder(
-    itemCount: items.length,
-    itemBuilder: (context, index) {
-      
-      final item = items[index];
+  @override
+  Widget build(BuildContext context) {
+    final items = [
+      ListTile(title: Text("Oldest child")),
+      ListTile(title: Text("Favorite child")),
+      ListTile(title: Text("Youngest child")),
+    ];
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('Multi Child Widgets'),
+        ),
+        body: ListView.builder(
+          itemCount: items.length,
+          itemBuilder: (context, index) {
+            final item = items[index];
 
-      return item;
-    },
-  );
+            return item;
+          },
+        ));
+  }
 }

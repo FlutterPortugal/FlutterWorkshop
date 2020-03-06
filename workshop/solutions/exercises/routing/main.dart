@@ -1,51 +1,26 @@
 import 'package:flutter/material.dart';
 
 
-// Source: https://flutter.dev/docs/cookbook/navigation/navigation-basics
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key key}) : super(key: key);
 
-void main() {
-  runApp(MaterialApp(
-    title: 'Navigation Basics',
-    home: FirstRoute(),
-  ));
-}
-
-class FirstRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('First Route'),
+        title: const Text('Cat Facts'),
       ),
-      body: Center(
-        child: RaisedButton(
-          child: Text('Open route'),
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => SecondRoute()),
-            );
-          },
-        ),
-      ),
-    );
-  }
-}
-
-class SecondRoute extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Second Route"),
-      ),
-      body: Center(
-        child: RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text('Go back!'),
-        ),
+      body: ListView.builder(
+        itemCount: facts.length,
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: facts[index].id,
+            subtitle: facts[index].text,
+            onTap: () {
+              // This is where you should navigate to a new screen
+            },
+          );
+        },
       ),
     );
   }

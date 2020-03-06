@@ -10,23 +10,31 @@ next: /exercises/stateless-widget/
 - Replace the following content into your file `my_app/lib/main.dart`
 
 <<< @/workshop/solutions/exercises/list-builder/main.dart
-  
+
+## Project
+
+Let's start a mini project, a simple app that will show us some cat facts, with the following:
+
+  - A screen with a button to fetch cat facts from the web;
+  - A list that shows the facts fetched;
+  - Screen showing the details for each fact;
+
 ## Tasks
 
-1. Compare how different `ListBuilder(..)` is with a previous used `ListView(..)`.
-2. Edit so that it only show the "Favorite Child" row, without altering "items" array
-3. Replace `items` with the following:
+1. Let's start by creating a simple `List` in our first screen (you can call it `HomeScreen`). 
+2. For now, and because we don't have any data yet, you can add simple `Text` objects or `ListTiles` to your `List`.
+3. Try with both `ListView.builder(..)` that gives you a generator or with just `ListView(..)`. Can you spot the diferences?
+4. In the last, can use the following in the `items`:
 
   ``` dart
     final items = List<ListTile>.generate(10, (index) => ListTile(title:Text("Row number $index")));
   ```
 
-1. What happened?
-2. Experiment with the function `.filled()`
-3. Edit that in a way the odd rows say "Odd row" and the even "Even row"  (tip: Int.isOdd)
-4. Wrap your ListTile's with `GestureDetector(..)` so that the property onTap(..) will `print()` the row number.
+5. Now try with the `ListView.separated(...)` and give it some widget as a `separator` property. 
+6. Edit that in a way the odd rows say "Odd row" and the even "Even row"  (tip: Int.isOdd)
+7. Wrap your ListTile's with `GestureDetector(..)` so that the property onTap(..) will `print()` the row number.
    - You will need to open the Debug Console of Visual Studio Code to see the output on tap.
-5. The function print is boring.. lets call a SnackBar to show the message.
+8. The function print is boring.. lets call a SnackBar to show the message.
    - Use the following function to help you.
 
     ``` dart
@@ -34,16 +42,17 @@ next: /exercises/stateless-widget/
       return GestureDetector(
           child: ... ,
           onTap: () {
-            Scaffold.of(context).showSnackBar(new SnackBar(
+            Scaffold.of(context).showSnackBar(SnackBar(
               content: ... ,
             ));
           });
     }
     ```
 
-6. Make the Snackbar only show for 100 milliseconds.
+9. Make the Snackbar only show for 100 milliseconds.
+10. Right now, we should already have our List screen ready to be populated with amazing cat facts!
 
-### Exercise
+### Extra exercise
 
 To have an infinite list with items here is an example from the Flutter docs:
 
