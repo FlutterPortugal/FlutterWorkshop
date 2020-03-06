@@ -1,81 +1,58 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 void main() {
   runApp(FavoriteInheritedWidget(
     favoriteColor: FavoriteColor(color: Colors.blue),
     child: MaterialApp(
       title: 'Basic State',
-      home: FirstRoute(),
+      home: HomeScreen(),
     ),
   ));
 }
 
-class FirstRoute extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    FavoriteInheritedWidget favorite =
-        context.ancestorWidgetOfExactType(FavoriteInheritedWidget);
+    FavoriteInheritedWidget favorite = context.dependOnInheritedWidgetOfExactType<FavoriteInheritedWidget>();
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('First Route'),
+        title: Text('My favorite color'),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            RaisedButton(
-              color: favorite.favoriteColor.getFavorite(),
-              child: Text('Open route'),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => SecondRoute()),
-                );
-              },
-            ),
-            Wrap(
-              children: <Widget>[
-                RaisedButton(
-                  color: Colors.blue,
-                  onPressed: () {
-                    favorite.favoriteColor.newFavorite(Colors.blue);
-                  },
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          RaisedButton(
+            child: Text('Make it blue!'),
+            color: Colors.blue,
+            onPressed: () {
+              favorite.favoriteColor.newFavorite(Colors.blue);
+            },
+          ),
+          RaisedButton(
+            child: Text('Make it yellow!'),
+            color: Colors.yellow,
+            onPressed: () {
+              favorite.favoriteColor.newFavorite(Colors.yellow);
+            },
+          ),
+          RaisedButton(
+            child: Text('Make it magic!'),
+            onPressed: () {
+              favorite.favoriteColor.newFavorite(
+                Color.fromRGBO(
+                  Random().nextInt(255),
+                  Random().nextInt(255),
+                  Random().nextInt(255),
+                  1.0,
                 ),
-                RaisedButton(
-                  color: Colors.yellow,
-                  onPressed: () {
-                    favorite.favoriteColor.newFavorite(Colors.yellow);
-                  },
-                )
-              ],
-            )
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class SecondRoute extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    final FavoriteInheritedWidget favorite =
-        context.ancestorWidgetOfExactType(FavoriteInheritedWidget);
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Second Route"),
-      ),
-      body: Center(
-        child: RaisedButton(
-          color: favorite.favoriteColor.getFavorite(),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text('Go back!'),
-        ),
-      ),
+              );
+            },
+          ),
+        ],
+      )),
     );
   }
 }
@@ -92,12 +69,12 @@ class FavoriteInheritedWidget extends InheritedWidget {
   bool updateShouldNotify(FavoriteInheritedWidget oldWidget) => true;
 
   static FavoriteInheritedWidget of(BuildContext context) {
-    return (context.inheritFromWidgetOfExactType(FavoriteInheritedWidget) as FavoriteInheritedWidget);
+    return context.dependOnInheritedWidgetOfExactType<FavoriteInheritedWidget>();
   }
 }
 
 class FavoriteColor {
-  var color;
+  Color color;
 
   FavoriteColor({this.color});
 

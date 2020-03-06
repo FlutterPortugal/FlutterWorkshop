@@ -24,16 +24,17 @@ sidebar: auto
 
 3. Be sure you up Flutter, your editor (we recommend [Visual Studio Code](https://code.visualstudio.com/)), and all dependencies.
 4. Use the created `my_app/` folder Flutter app to work on your exercices.
-5. Follow the "Recommended Flow"
+5. Make sure you have the format on save setting set on VS Code to make it cleaner by following the Dart formatter guidelines. 
+6. Follow the "Recommended Flow"
 
 ## Recommended Flow
 
 1. [Basic App](/exercises/basic-app/)
-2. [Single Single Widgets](/exercises/basic-single-child-widgets/)
-3. [Multi Child Widgets](/exercises/basic-multi-child-widgets/)
-4. [List Builder](/exercises/list-builder/)
-5. [Stateless](/exercises/stateless-widget/)
-6. [Stateful](/exercises/stateful-widget/)
+2. [Stateless Widgets](/exercises/stateless-widget/)
+3. [Stateful Widgets](/exercises/stateful-widget/)
+4. [Single Child Widgets](/exercises/basic-single-child-widgets/)
+5. [Multi Child Widgets](/exercises/basic-multi-child-widgets/)
+6. [List Builder](/exercises/list-builder/)
 7. [Routing](/exercises/routing/)
 8. [Networking](/exercises/networking/)
 9. [Basic State Management](/exercises/basic-state-management/)
